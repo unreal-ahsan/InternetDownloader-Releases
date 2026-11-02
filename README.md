@@ -32,7 +32,7 @@ Check your download against `SHA256SUMS.txt`.
 - **The installer is unsigned.** Windows SmartScreen will warn you. Check the SHA-256 sum first.
 - **The browser companion is not in any store.** It loads as an unpacked extension.
 - **Not supported:** DRM-protected video, live streams, and sites that need a sign-in the app cannot see. The app never reads browser cookies.
-- **VPN:** WireGuard profiles are designed to route only this app, leaving the rest of the PC on its normal connection. This has not yet been tested against a real VPN server, so check your IP before relying on it. A VPN does not make you anonymous.
+- **VPN:** WireGuard profiles route only this app, leaving the rest of the PC on its normal connection. This was confirmed with one Proton WireGuard profile by comparing exit addresses. It has not been checked with packet capture, so check your own IP before relying on it. A VPN does not make you anonymous.
 
 Download only content you have the right to download.
 
