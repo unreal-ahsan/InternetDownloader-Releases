@@ -16,7 +16,7 @@ Check your download against `SHA256SUMS.txt`.
 
 - Up to eight connections per download, with resume after interruptions
 - Download button on video pages, with a quality list right under it
-- Queue with priorities, schedules, pause and resume
+- Run 1 to 8 downloads at once, with priorities, schedules, pause and resume
 - HLS and DASH video assembly, including separate video and audio tracks
 - WireGuard and OpenVPN profiles through the official clients
 - SHA-256 verification; existing files are never overwritten
