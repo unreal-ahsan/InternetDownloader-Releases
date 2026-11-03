@@ -6,9 +6,9 @@ A native Windows download manager with segmented downloads, resume, video qualit
 
 | File | Use |
 |---|---|
-| `InternetDownloader-Setup-0.2.0-unsigned.exe` | Installer for Windows x64 |
-| `InternetDownloader-0.2.0-portable.zip` | Portable version, no install needed |
-| `InternetDownloader-Chromium-0.2.0.zip` | Browser companion for Chrome, Edge and Brave |
+| `InternetDownloader-Setup-0.2.1-unsigned.exe` | Installer for Windows x64 |
+| `InternetDownloader-0.2.1-portable.zip` | Portable version, no install needed |
+| `InternetDownloader-Chromium-0.2.1.zip` | Browser companion for Chrome, Edge and Brave |
 
 Check your download against `SHA256SUMS.txt`.
 
@@ -18,7 +18,7 @@ Check your download against `SHA256SUMS.txt`.
 - Download button on video pages, with a quality list right under it
 - Run 1 to 8 downloads at once, with priorities, schedules, pause and resume
 - HLS and DASH video assembly, including separate video and audio tracks
-- WireGuard and OpenVPN profiles through the official clients
+- Built-in WireGuard VPN for this app only, with no Windows adapter, service or route changes
 - New downloads sorted into Videos, Audio, Images, Documents, Compressed, Programs and Other folders
 - SHA-256 verification; existing files are never overwritten
 
@@ -33,7 +33,7 @@ Check your download against `SHA256SUMS.txt`.
 - **The installer is unsigned.** Windows SmartScreen will warn you. Check the SHA-256 sum first.
 - **The browser companion is not in any store.** It loads as an unpacked extension.
 - **Not supported:** DRM-protected video, live streams, and sites that need a sign-in the app cannot see. The app never reads browser cookies.
-- **VPN:** WireGuard profiles route only this app, leaving the rest of the PC on its normal connection. This was confirmed with one Proton WireGuard profile by comparing exit addresses. It has not been checked with packet capture, so check your own IP before relying on it. A VPN does not make you anonymous.
+- **VPN:** WireGuard runs inside the app, so only its downloads use the VPN and the rest of the PC stays on its normal connection. Nothing VPN-related is installed into Windows. This was confirmed with one Proton WireGuard profile by comparing exit addresses; it has not been checked with packet capture. OpenVPN profiles can be imported but not connected yet. A VPN does not make you anonymous.
 
 Download only content you have the right to download.
 

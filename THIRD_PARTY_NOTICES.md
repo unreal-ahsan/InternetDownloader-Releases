@@ -8,6 +8,11 @@ The original Internet Downloader code is MIT-licensed under LICENSE. That licens
 | Walk + win | Native Windows controls/API | Upstream BSD notices retained |
 | go-sqlite3 | SQLite CGO driver | MIT driver notice; SQLite retains its own public-domain status |
 | golang.org/x/sys | Windows platform APIs | BSD-style notice retained |
+| wireguard-go + netstack | In-process WireGuard protocol and virtual network adapter | Upstream MIT license retained; pinned in go.mod/go.sum |
+| gVisor | Private userspace TCP/IP stack | Apache-2.0 license and upstream notices retained |
+| Microsoft go-winio | Current-user-only Windows named-pipe IPC | MIT license retained |
+| golang.org/x/crypto, x/net, x/exp, x/time; google/btree | Cryptographic/networking/stack dependencies | Upstream BSD-style/Apache notices retained; pinned module inventory |
+| wintun Go module | Transitive WireGuard interface package dependency | Upstream notice retained; no Wintun driver DLL is bundled, installed or opened for userspace sessions |
 | govaluate dependency | Walk dependency | Upstream notice retained; no user expression execution interface is exposed |
 | Python 3.13.17 embeddable x64 | Stdio media inspector | PSF and bundled notices retained; official python.exe Authenticode verified Valid during acquisition |
 | yt-dlp 2026.10.26 wheel | Supported-site extraction metadata | Upstream Unlicense/packaged notices retained; official PyPI SHA-256 verified |
@@ -17,6 +22,6 @@ FFmpeg is a separate helper executable; the application does not modify or stati
 
 Playwright/Chrome for Testing, resource compiler, benchmark tooling and govulncheck are development-only. They are not bundled as application runtime dependencies.
 
-WireGuard/OpenVPN clients are not bundled. Connection management invokes supported official installed clients for user-authorized profiles; their own licenses apply. No user VPN profile or key is included in a distribution. Chrome/Edge/Brave names and platform APIs remain their owners' trademarks/services; no store approval or endorsement is claimed.
+The isolated WireGuard backend is compiled into the app. No official VPN client is required for new connections; existing clients are used only for explicit removal of old downloader-owned Windows tunnels. OpenVPN activation is disabled. No user VPN profile or key is included in a distribution. Chrome/Edge/Brave names and platform APIs remain their owners' trademarks/services; no store approval or endorsement is claimed.
 
 The manifest public key only stabilizes the unpacked companion ID. It is not a publicly trusted signature on the EXE/installer, and no signing certificate is bundled.
