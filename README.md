@@ -19,6 +19,7 @@ Check your download against `SHA256SUMS.txt`.
 - Run 1 to 8 downloads at once, with priorities, schedules, pause and resume
 - HLS and DASH video assembly, including separate video and audio tracks
 - WireGuard and OpenVPN profiles through the official clients
+- New downloads sorted into Videos, Audio, Images, Documents, Compressed, Programs and Other folders
 - SHA-256 verification; existing files are never overwritten
 
 ## Install
