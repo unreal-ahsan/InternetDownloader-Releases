@@ -6,11 +6,13 @@ A native Windows download manager with segmented downloads, resume, video qualit
 
 | File | Use |
 |---|---|
-| `InternetDownloader-Setup-0.2.6-unsigned.exe` | Installer for Windows x64 |
-| `InternetDownloader-0.2.6-portable.zip` | Portable version, no install needed |
-| `InternetDownloader-Chromium-0.2.6.zip` | Browser companion for Chrome, Edge and Brave |
+| `InternetDownloader-Setup-0.2.7-unsigned.exe` | Installer for Windows x64 |
+| `InternetDownloader-0.2.7-portable.zip` | Portable version, no install needed |
+| `InternetDownloader-Chromium-0.2.7.zip` | Browser companion for Chrome, Edge and Brave |
 
 Check your download against `SHA256SUMS.txt`.
+
+From 0.2.7 on, an installed copy updates itself from this page. Each release carries `update.json` and its signature `update.json.sig`; the app installs only an installer that matches the signed note, and the update can be turned off in **Updates**.
 
 ## Features
 
@@ -23,6 +25,8 @@ Check your download against `SHA256SUMS.txt`.
 - Optional browser sign-in for sites you approve one by one, such as Facebook; never used for YouTube or Google
 - New downloads sorted into Videos, Audio, Images, Documents, Compressed, Programs and Other folders
 - SHA-256 verification; existing files are never overwritten
+- Play finished audio and video in your default player
+- Automatic, signed updates that wait until no download is running
 
 ## Install
 
