@@ -6,9 +6,9 @@ A native Windows download manager with segmented downloads, resume, video qualit
 
 | File | Use |
 |---|---|
-| `InternetDownloader-Setup-0.2.7-unsigned.exe` | Installer for Windows x64 |
-| `InternetDownloader-0.2.7-portable.zip` | Portable version, no install needed |
-| `InternetDownloader-Chromium-0.2.7.zip` | Browser companion for Chrome, Edge and Brave |
+| `InternetDownloader-Setup-0.2.8-unsigned.exe` | Installer for Windows x64 |
+| `InternetDownloader-0.2.8-portable.zip` | Portable version, no install needed |
+| `InternetDownloader-Chromium-0.2.8.zip` | Browser companion for Chrome, Edge and Brave |
 
 Check your download against `SHA256SUMS.txt`.
 

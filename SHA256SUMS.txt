@@ -1,3 +1,3 @@
-ec187d6d7eb2b9bcb5a100b9f6e95ef3e37a1a3f234b627cde408e65d92bea3b  InternetDownloader-0.2.7-portable.zip
-52ca5edc119206be2a23670f845ea36d1764faffa5b265470722744d1015ba94  InternetDownloader-Chromium-0.2.7.zip
-1c6db1d5351a5e9c0ead087ac9664fd221cefde9521709308a3f3d4ae6300e91  InternetDownloader-Setup-0.2.7-unsigned.exe
+9ae1da207b136894819443d5a640a0c36228763101d038d5ef386da13a3299c1  InternetDownloader-0.2.8-portable.zip
+23f33fef5f77d42603430ae7ee4bfe3af08143db52a1767046da996868fd98f6  InternetDownloader-Chromium-0.2.8.zip
+3f8c78194e27173422c56ff115e7a3ba6e19931ca43d3afdf162b472d8b34303  InternetDownloader-Setup-0.2.8-unsigned.exe
